@@ -1,9 +1,10 @@
-DCBC: solve a MILP problem with a distributed set of CBC solver instances
+DCBC: solve a MILP problem with a distributed set of B&B solver solver instances (CBC or SCIP now) 
 
 CBC is a free open-source MILP solver from the COIN-OR suite
 (https://projects.coin-or.org/Cbc). DCBC is an Erlang-based system managing
 a set of CBC solver instances running together on a set of subproblems generated
 from a single MILP problem.
+SCIP is also open-source MILP solver, http://scip.zib.de
 
 
 Executables
